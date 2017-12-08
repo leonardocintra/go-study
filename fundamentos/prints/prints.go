@@ -19,7 +19,7 @@ func main() {
 	b := 2.9894
 	c := false
 	d := "ronaldo"
-	fmt.Printf("\n", d)
+	fmt.Printf("\n %d %f, %t, %s", a, b, c, d)
 
 }
 
