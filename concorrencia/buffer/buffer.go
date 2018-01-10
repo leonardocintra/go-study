@@ -20,6 +20,6 @@ func main() {
 	ch := make(chan int, 3)
 	go rotina(ch)
 
-	time.Sleep(time.Minute)
+	time.Sleep(time.Second)
 	fmt.Println(<-ch)
 }
