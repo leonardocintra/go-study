@@ -9,6 +9,7 @@ const msgIndex = "%s (parte: %s) - índices: esperado (%d) <> encontrado (%d)."
 
 // Caça o indice da palavra
 func TestIndex(t *testing.T) {
+	t.Parallel()
 	testes := []struct {
 		texto    string
 		parte    string
